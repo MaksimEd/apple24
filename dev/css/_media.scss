@@ -1,0 +1,137 @@
+@media screen and (min-width: 992px){
+	.col-ins-5 {
+	    width: 20%;
+	    position: relative;
+	    display: block;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	    float: left;
+	    min-height: 1px;
+	}
+}
+
+
+
+@media screen and (max-width: 1024px) { 
+	.slick-next{
+		right: 0;
+	}
+	.slick-prev{
+		left: 0;
+	}
+}
+
+@media screen and (max-width: 991px) { 
+	html{
+		font-size: 14PX;
+	}
+	#main form{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#calculator {
+		.list ul {
+			padding-left: 35px;
+			li .circle-num{
+				left: 8px;
+			}
+		}
+		.img-iphone img{
+			max-width: 49%;
+		}
+	}
+}
+
+@media (min-width: 768px){
+
+}
+
+@media screen and (max-width: 767px) { 
+	html{
+		font-size: 12PX;
+	}
+		header {
+			p#logo{
+				margin-top: 5PX;
+			}
+			.phone {
+				    margin-top: 9PX;
+				#mts, #velcom, #viber{
+					background-image: none!important;
+					padding-left: 0;
+				}
+				#viber{
+					display: none;
+				}
+				a{
+					font-size: 13PX;
+				}
+			}
+		}
+	#main {
+		background: url('../img/main-mobile.jpg') center center no-repeat;
+		background-size: cover;
+		h1{
+			font-size: 24PX;
+		}
+		ul#list{
+			li{
+				img{
+					width: 100%;
+				}
+			}
+		}
+	}
+	
+	#calculator {
+		.list{
+			margin: 20PX;
+		}
+		form{
+			margin-left: -4PX;
+		}
+	}
+	#contacts {
+		.contacts__form{
+			overflow: hidden;
+			position: relative;
+			max-width: 100%;
+			right: 0;
+		}
+	}	
+
+	#new-phone{
+		.btn{
+			margin-top: 20px;
+		}
+	}
+	#how-to-buy{
+		.col-xs-6.col-sm-3{
+			min-height: 175PX;
+			margin-bottom: 20px;
+		}
+		[class*=icon]{
+			width: 90PX;
+			height: 90PX;
+		}
+	}
+
+	#gift-hotel .gift-hotel__number:before{
+		display: none;
+	}
+
+	input.btn{
+		font-size: 1.5rem;
+	}
+
+	footer{
+		p#footer__logo{
+			padding-left: 0;
+		}
+		.phone a{
+			padding-top: 1px;
+			padding-bottom: 1px;
+		}
+	}
+
+}

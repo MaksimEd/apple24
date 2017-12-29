@@ -1,0 +1,222 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$dostav-name: 'dostav';
+$dostav-x: 0PX;
+$dostav-y: 336PX;
+$dostav-offset-x: 0PX;
+$dostav-offset-y: -336PX;
+$dostav-width: 104PX;
+$dostav-height: 80PX;
+$dostav-total-width: 138PX;
+$dostav-total-height: 1198PX;
+$dostav-image: 'sprite.png';
+$dostav: (0PX, 336PX, 0PX, -336PX, 104PX, 80PX, 138PX, 1198PX, 'sprite.png', 'dostav', );
+$ico3-name: 'ico3';
+$ico3-x: 0PX;
+$ico3-y: 446PX;
+$ico3-offset-x: 0PX;
+$ico3-offset-y: -446PX;
+$ico3-width: 61PX;
+$ico3-height: 80PX;
+$ico3-total-width: 138PX;
+$ico3-total-height: 1198PX;
+$ico3-image: 'sprite.png';
+$ico3: (0PX, 446PX, 0PX, -446PX, 61PX, 80PX, 138PX, 1198PX, 'sprite.png', 'ico3', );
+$mail-name: 'mail';
+$mail-x: 0PX;
+$mail-y: 46PX;
+$mail-offset-x: 0PX;
+$mail-offset-y: -46PX;
+$mail-width: 16PX;
+$mail-height: 16PX;
+$mail-total-width: 138PX;
+$mail-total-height: 1198PX;
+$mail-image: 'sprite.png';
+$mail: (0PX, 46PX, 0PX, -46PX, 16PX, 16PX, 138PX, 1198PX, 'sprite.png', 'mail', );
+$mts-name: 'mts';
+$mts-x: 0PX;
+$mts-y: 92PX;
+$mts-offset-x: 0PX;
+$mts-offset-y: -92PX;
+$mts-width: 16PX;
+$mts-height: 16PX;
+$mts-total-width: 138PX;
+$mts-total-height: 1198PX;
+$mts-image: 'sprite.png';
+$mts: (0PX, 92PX, 0PX, -92PX, 16PX, 16PX, 138PX, 1198PX, 'sprite.png', 'mts', );
+$mts2-name: 'mts2';
+$mts2-x: 0PX;
+$mts2-y: 230PX;
+$mts2-offset-x: 0PX;
+$mts2-offset-y: -230PX;
+$mts2-width: 23PX;
+$mts2-height: 23PX;
+$mts2-total-width: 138PX;
+$mts2-total-height: 1198PX;
+$mts2-image: 'sprite.png';
+$mts2: (0PX, 230PX, 0PX, -230PX, 23PX, 23PX, 138PX, 1198PX, 'sprite.png', 'mts2', );
+$skype-name: 'skype';
+$skype-x: 0PX;
+$skype-y: 138PX;
+$skype-offset-x: 0PX;
+$skype-offset-y: -138PX;
+$skype-width: 16PX;
+$skype-height: 16PX;
+$skype-total-width: 138PX;
+$skype-total-height: 1198PX;
+$skype-image: 'sprite.png';
+$skype: (0PX, 138PX, 0PX, -138PX, 16PX, 16PX, 138PX, 1198PX, 'sprite.png', 'skype', );
+$stepbuy1-name: 'stepbuy1';
+$stepbuy1-x: 0PX;
+$stepbuy1-y: 1060PX;
+$stepbuy1-offset-x: 0PX;
+$stepbuy1-offset-y: -1060PX;
+$stepbuy1-width: 138PX;
+$stepbuy1-height: 138PX;
+$stepbuy1-total-width: 138PX;
+$stepbuy1-total-height: 1198PX;
+$stepbuy1-image: 'sprite.png';
+$stepbuy1: (0PX, 1060PX, 0PX, -1060PX, 138PX, 138PX, 138PX, 1198PX, 'sprite.png', 'stepbuy1', );
+$stepbuy2-name: 'stepbuy2';
+$stepbuy2-x: 0PX;
+$stepbuy2-y: 892PX;
+$stepbuy2-offset-x: 0PX;
+$stepbuy2-offset-y: -892PX;
+$stepbuy2-width: 138PX;
+$stepbuy2-height: 138PX;
+$stepbuy2-total-width: 138PX;
+$stepbuy2-total-height: 1198PX;
+$stepbuy2-image: 'sprite.png';
+$stepbuy2: (0PX, 892PX, 0PX, -892PX, 138PX, 138PX, 138PX, 1198PX, 'sprite.png', 'stepbuy2', );
+$stepbuy3-name: 'stepbuy3';
+$stepbuy3-x: 0PX;
+$stepbuy3-y: 724PX;
+$stepbuy3-offset-x: 0PX;
+$stepbuy3-offset-y: -724PX;
+$stepbuy3-width: 138PX;
+$stepbuy3-height: 138PX;
+$stepbuy3-total-width: 138PX;
+$stepbuy3-total-height: 1198PX;
+$stepbuy3-image: 'sprite.png';
+$stepbuy3: (0PX, 724PX, 0PX, -724PX, 138PX, 138PX, 138PX, 1198PX, 'sprite.png', 'stepbuy3', );
+$stepbuy4-name: 'stepbuy4';
+$stepbuy4-x: 0PX;
+$stepbuy4-y: 556PX;
+$stepbuy4-offset-x: 0PX;
+$stepbuy4-offset-y: -556PX;
+$stepbuy4-width: 138PX;
+$stepbuy4-height: 138PX;
+$stepbuy4-total-width: 138PX;
+$stepbuy4-total-height: 1198PX;
+$stepbuy4-image: 'sprite.png';
+$stepbuy4: (0PX, 556PX, 0PX, -556PX, 138PX, 138PX, 138PX, 1198PX, 'sprite.png', 'stepbuy4', );
+$velcom-name: 'velcom';
+$velcom-x: 0PX;
+$velcom-y: 184PX;
+$velcom-offset-x: 0PX;
+$velcom-offset-y: -184PX;
+$velcom-width: 21PX;
+$velcom-height: 16PX;
+$velcom-total-width: 138PX;
+$velcom-total-height: 1198PX;
+$velcom-image: 'sprite.png';
+$velcom: (0PX, 184PX, 0PX, -184PX, 21PX, 16PX, 138PX, 1198PX, 'sprite.png', 'velcom', );
+$velcom2-name: 'velcom2';
+$velcom2-x: 0PX;
+$velcom2-y: 283PX;
+$velcom2-offset-x: 0PX;
+$velcom2-offset-y: -283PX;
+$velcom2-width: 30PX;
+$velcom2-height: 23PX;
+$velcom2-total-width: 138PX;
+$velcom2-total-height: 1198PX;
+$velcom2-image: 'sprite.png';
+$velcom2: (0PX, 283PX, 0PX, -283PX, 30PX, 23PX, 138PX, 1198PX, 'sprite.png', 'velcom2', );
+$viber-name: 'viber';
+$viber-x: 0PX;
+$viber-y: 0PX;
+$viber-offset-x: 0PX;
+$viber-offset-y: 0PX;
+$viber-width: 15PX;
+$viber-height: 16PX;
+$viber-total-width: 138PX;
+$viber-total-height: 1198PX;
+$viber-image: 'sprite.png';
+$viber: (0PX, 0PX, 0PX, 0PX, 15PX, 16PX, 138PX, 1198PX, 'sprite.png', 'viber', );
+$spritesheet-width: 138PX;
+$spritesheet-height: 1198PX;
+$spritesheet-image: 'sprite.png';
+$spritesheet-sprites: ($dostav, $ico3, $mail, $mts, $mts2, $skype, $stepbuy1, $stepbuy2, $stepbuy3, $stepbuy4, $velcom, $velcom2, $viber, );
+$spritesheet: (138PX, 1198PX, 'sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
